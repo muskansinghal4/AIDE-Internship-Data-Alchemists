@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags for SEO -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>UrbanClap Clone</title>
+
+    <!-- Linking Favicon, Apple Touch Icon, Font Awesome, AOS, Bootstrap & CSS -->
+    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- No Script -->
+    <noscript>Please enable JavaScript to open this page.</noscript>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: black">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img
+                src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_template,q_auto:low,f_auto/categories/category_v2/category_425cd8c0.png"
+                alt="UrbanClap" style="width: 200px"></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#appliances">Appliances</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cleaning">Cleaning</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/experience1.jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/experience2.jpeg" alt="Second slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Experiences Section -->
+    <section id="experience">
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <h3 class="text-center font-weight-bolder">Experiences in the Spotlight</h3>
+            </div>
+            <div class="row justify-content-center">
+                <h6 class="text-center light-text font-weight-normal">Hygienic & single-use products | low-contact
+                    services</h6>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/experience1.jpeg" alt="Image" class="img-fluid">
+                    <h5 class="text-center mt-3 font-weight-bold">Salon at Home</h5>
+                    <p class="text-center lighter-text">Single-use tools & products</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/experience2.jpeg" alt="Image" class="img-fluid">
+                    <h5 class="text-center mt-3 font-weight-bold">Salon at Home</h5>
+                    <p class="text-center lighter-text">Single-use cape & towels</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separate -->
+    <section style="background: #F1F4F6;height: 20px;"></section>
+
+    <!-- Appliances Section -->
+    <section id="appliances">
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <h3 class="text-center font-weight-bolder"> What are you looking for?</h3>
+            </div>
+            <div class="row justify-content-center">
+                <h6 class="text-center light-text font-weight-normal"> Select your services for the Best Experience
+                </h6>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\salon.png"
+                        alt="Image" class="img-fluid">
+                    <p class="text-center mt-3">Salon</p>
+                    <p class="text-center lighter-text">Both for Men & Women</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\ac.png"
+                        alt="Image" class="img-fluid">
+                    <p class="text-center mt-3">AC & Appliancce Repair</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\cleaning.png"
+                        alt="Image" class="img-fluid">
+                    <p class="text-center mt-3">Cleaning</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\ele.png"
+                        alt="Image" class="img-fluid">
+                    <p class="text-center mt-3">Electrician, Plumber & Carpenter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separate -->
+    <section style="background: #F1F4F6;height: 20px;"></section>
+
+    <!-- Reviews Section -->
+    <section id="reviews">
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <h3 class="text-center font-weight-bolder">Customer safety is our priority</h3>
+            </div>
+            <div class="row justify-content-center">
+                <h6 class="text-center light-text font-weight-normal">What customers are saying about our safety
+                    standards
+                </h6>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-3">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/categories/category_v2/category_3782c0d0.png"
+                        alt="Image" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/categories/category_v2/category_38337330.png"
+                        alt="Image" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/categories/category_v2/category_387cb130.png"
+                        alt="Image" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/categories/category_v2/category_3bbf0af0.png"
+                        alt="Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separate -->
+    <section style="background: #F1F4F6;height: 20px;"></section>
+
+    <!-- Cleaning Section -->
+    <section id="cleaning">
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <h3 class="text-center font-weight-bolder">Most booked services </h3>
+            </div>
+            <div class="row justify-content-center">
+                <h6 class="text-center light-text font-weight-normal"> Services with best price and quality for you
+                </h6>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\ac repair.jpg"
+                        alt="Image" class="img-fluid" style="height:150px">
+                    <p class="text-center mt-3">Power Saver AC service</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\ac repair.jpg"
+                        alt="Image" class="img-fluid" style="height:150px">
+                    <p class="text-center mt-3">AC repair</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/category_v2/category_2effaaf0.png"
+                        alt="Image" class="img-fluid" style="height:150px">
+                    <p class="text-center mt-3">Sofa Cleaning</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\hair.webp"
+                        alt="Image" class="img-fluid" style="height:150px" width="300">
+                    <p class="text-center mt-3">Haircut for men</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separate -->
+    <section style="background: #F1F4F6;height: 20px;"></section>
+
+    <!-- Insurance Section -->
+    <section id="insurance">
+        <div class="container-fluid p-2">
+            <div class="row justify-content-center">
+                <img src="assets/img/1.png" alt="Image" class="img-fluid" style="width: 100%">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separate -->
+    <section style="background: #F1F4F6;height: 20px;"></section>
+
+    <!-- Government Section -->
+    <section id="government">
+        <div class="container-fluid p-2">
+            <div class="row justify-content-center">
+                <img src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\WhatsApp Image 2024-06-14 at 13.47.27.jpeg" alt="Image" class="img-fluid" style="width: 80%; height: 200px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separate -->
+    <section style="background: #F1F4F6;height: 20px;"></section>
+
+    <!-- Refer Section -->
+    <section id="refer">
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="row justify-content-start mt-md-2">
+                        <h2 class="text-left font-weight-bolder mt-md-5">Refer and get free services </h2>
+                    </div>
+                    <div class="row justify-content-start">
+                        <h6 class="text-left light-text font-weight-normal">Invite your friends to Urban Company
+                            services. They get Rs. 100 off. You win upto Rs. 5000
+                        </h6>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="buttonIn">
+                            <input type="number" id="referralForm" class="form-control" placeholder="XXXXXXXXXX">
+                            <button id="submitRefer" class="btn btn-black">Send</button>
+                        </div>
+                    </div>
+                    <!-- <div class="row justify-content-start mt-5"> -->
+                        <!-- <div class="col-12 col-md-4"> -->
+                            <!-- <a -->
+                                <!-- href="https://app.appsflyer.com/com.urbanclap.urbanclap?pid=MobileWeb&c=home_app_buttons"><img -->
+                                    <!-- src="C:\Users\ADMIN\OneDrive\Desktop\Programming Languages\Intership 1\UrbanClap\WhatsApp Image 2024-06-14 at 13.47.27.jpeg" -->
+                                    <!-- alt="Image" class="img-fluid" style="height: 50px"></a> -->
+                        <!-- </div> -->
+                        <!-- <div class="col-12 col-md-4"> -->
+                            <!-- <a href="https://app.appsflyer.com/id1032480595?pid=MobileWeb&c=home_app_buttons"><img -->
+                                    <!-- src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f741d10.png" -->
+                                    <!-- alt="Image" class="img-fluid" style="height: 50px"></a> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-md-6"> -->
+                    <!-- <img src="assets/img/phones.png" alt="Image" class="img-fluid"> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container" style="overflow-x: hidden;">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep/t_high_res_template,q_auto:low,f_auto/categories/category_v2/category_425cd8c0.png"
+                        class="img-fluid" alt="UrbanClap" style="width: 250px">
+                    <p class="text-justify mt-3">Urban Company is a technology platform offering a variety of services at home. 
+					Customers use our platform to book services such as beauty treatments, haircuts, massage therapy, cleaning, plumbing, carpentry, 
+					appliance repair, painting etc. These services are delivered in the comfort of their home and at a time of their choosing. 
+					We promise our customers a high quality, standardised and reliable service experience.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>Company</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://www.urbancompany.com/about">About us</a></li>
+                        <li><a href="https://www.urbancompany.com/terms">Terms & Conditions</a></li>
+                        <li><a href="https://www.urbancompany.com/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="https://www.urbancompany.com/anti-discrimination-policy">Anti-dicrimination Policy</a></li>
+						<li><a href="https://www.urbancompany.com/impact">UC impact</a></li>
+						<li><a href="https://careers.urbancompany.com/">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>For Customers</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://www.urbancompany.com/reviews">UC reviews</a></li>
+                        <li><a href="https://www.urbancompany.com/near-me">Categories near you</a></li>
+                        <li><a href="https://www.urbancompany.com/blog/">Blog</a></li>
+                        <li><a href="https://www.urbancompany.com/contact-us">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>For partners</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://partner.urbancompany.com/">Register as a professional</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>Social Limks</h6>
+					<ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/UrbanCompany/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="https://x.com/urbancompany_UC"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/urbancompany/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/urbancompany/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">© Copyright 2020 | UrbanClap | All right reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/javascript"></script>
+
+</body>
+
+</html>
